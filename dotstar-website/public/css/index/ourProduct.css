@@ -1,0 +1,29 @@
+.circular-img {
+	width: 200px;	
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.carousel-inner .right{
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.0) 100%);
+}
+
+
+.carousel-inner .left{
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.0) 100%);
+}
+
+.product-minsize{
+	min-height: 420px;
+}
+
+@media (max-wdith: 992px){
+	.product-minsize{
+		min-height: 520px;
+	}
+}

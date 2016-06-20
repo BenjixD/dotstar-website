@@ -1,0 +1,21 @@
+.header-underline{
+	margin: 20px auto;
+    max-width: 200px;
+    height: 2px;
+}
+
+.media-title{
+	padding-top: 10px;
+	padding-left: 20px;
+
+	display: table-cell;
+}
+
+.media-content{
+	padding-top: 30px;
+	text-align: left;
+}
+
+.aboutus-media{
+	overflow: hidden;
+}

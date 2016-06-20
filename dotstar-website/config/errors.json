@@ -1,0 +1,93 @@
+{
+    "ERROR_TEMPLATE":{
+        "title": "PICK_A_NAME",
+        "internalMessage": "Message for server's error logging, not shown to front end. ie. 'Error inserting into the database.'",
+        "file": "This is filled in by the file that threw the error.",
+        "route": "This is filled in by the route that threw the error.",
+        "specifics": "Usually filled in by function that threw the error. Specific information about the error. ie. 'Inserting personal information.'",
+        "userId": "The perpetrator of the error. Filled in by function that threw error.",
+        "status": "Usually an integer, HTTP status code.",
+        "response": {
+            "message": "Message for the user, be generic and don't expose too much of the inner working of the server.",
+            "steps": [
+                "Steps users can do to solve problem. eg.",
+                "Logout from the website.",
+                "Clear cookies for the website.",
+                "Repeat the action that caused the error."
+            ]
+        }
+
+    },
+
+
+
+
+
+
+
+
+    "DATABASE_CONNECTION": {
+        "title": "DATABASE CONNECTION ERROR",
+        "internalMessage": "Error getting connection with the database.",
+        "status": 500,
+        "response": {
+            "message": "Your request cannot be completed because the server is experiencing connectivity issues.",
+            "steps": [
+                "As this is not your fault, there's nothing you can do to solve the problem.",
+                "Technicians have been contacted, please try again later."
+            ]
+        }
+    },
+
+    "SQL_READ": {
+        "title": "SQL READ ERROR",
+        "internalMessage": "Error while reading database query file.",
+        "status": 500,
+        "response": {
+            "message": "Your request cannot be completed because the server failed to load a file.",
+            "steps": [
+                "Blame the monkeys whose code created this mess.",
+                "Those responsible has been contacted, please try again later."
+            ]
+        }
+    },
+
+    "DATABASE_INSERT": {
+        "title": "DATABASE INSERT ERROR",
+        "internalMessage": "Error while inserting data into the database.",
+        "status": 500,
+        "response": {
+            "message": "Your request cannot be completed because the server is having trouble with the database.",
+            "steps": [
+                "As this is not your fault, there's nothing you can do to solve the problem.",
+                "Technicians have been contacted, please try again later."
+            ]
+        }
+    },
+
+    "EMAIL_TEMPLATE_READ": {
+        "title": "EMAIL TEMPLATE READ ERROR",
+        "internalMessage": "Error while reading email templates.",
+        "status": 500,
+        "response": {
+            "message": "Your request cannot be completed because the server failed to load a file.",
+            "steps": [
+                "As this is not your fault, there's nothing you can do to solve the problem.",
+                "Technicians have been contacted, please try again later."
+            ]
+        }
+    },
+
+    "EMAIL_SEND": {
+        "title": "EMAIL SEND ERROR",
+        "internalMessage": "Error while sending e-mail.",
+        "status": 500,
+        "response": {
+            "message": "Your request cannot be completed because the server failed to send e-mail.",
+            "steps": [
+                "Check the email address provided.",
+                "Please try again."
+            ]
+        }
+    }
+}

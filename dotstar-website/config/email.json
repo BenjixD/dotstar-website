@@ -1,0 +1,11 @@
+{
+    "transport1": {
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+            "user": "",
+            "pass": ""
+        }
+    }
+}

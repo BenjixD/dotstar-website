@@ -1,0 +1,33 @@
+/** Level of Depth of the shadow **/
+/** Changes must be applied to all lvl-dp-* **/
+.lvl-dp-1{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.lvl-dp-2{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.lvl-dp-3{
+    box-shadow: 0 6px 7px rgba(0,0,0,0.3);
+}
+
+.lvl-dp-4{
+    box-shadow: 0 8px 8px rgba(0,0,0,0.3);
+}
+
+.lvl-dp-5{
+    box-shadow: 0 10px 9px rgba(0,0,0,0.3);
+}
+
+.lvl-dp-6{
+    box-shadow: 0 12px 10px rgba(0,0,0,0.3);
+}
+
+.lvl-dp-7{
+    box-shadow: 0 14px 11px rgba(0,0,0,0.3);
+}
+
+.lvl-dp-8{
+    box-shadow: 0 16px 12px rgba(0,0,0,0.3);
+}

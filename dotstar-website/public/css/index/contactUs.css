@@ -1,0 +1,87 @@
+.contact-us-header{
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-us-label{
+    margin-top: 12px;
+}
+
+.contact-us-input{
+    padding-top: 25px; padding-bottom: 25px;
+    border: none;
+    border-top: 1px solid #4FC3F7;
+    width: 72%;
+    margin-left: 14%;
+
+    font-size: 24px;
+
+    background: linear-gradient(to right, #E1F5FE 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    transition: background 0.5s ease-out;
+}
+
+.contact-us-input:focus{
+    font-weight: 400;
+    outline: none;
+    background-position: left bottom;
+}
+.contact-us-textarea{
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    resize: none;
+    height: 160px;
+    border: none;
+    border-top: 1px solid #4FC3F7;
+    border-bottom: 1px solid #4FC3F7;
+    overflow-y: auto;
+    width: 72%;
+    margin-left: 14%;
+
+    font-size: 24px;
+
+    background: linear-gradient(to right, #E1F5FE 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    transition: background 0.5s ease-out;
+}
+
+.contact-us-textarea:focus{
+    font-weight: 400;
+    outline: none;
+    background-position: left bottom;
+}
+
+.contact-us-button-pos{
+    margin-left: 12.5%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-us-button{
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    color: #42A5F5;
+
+    background: transparent;
+    border: 1px solid #4FC3F7;
+    border-radius: 0px;
+
+    transition: all 0.5s ease;
+}
+
+.contact-us-button:hover,
+.contact-us-button:focus{
+    background: #4FC3F7;
+    color: #fff;
+}

@@ -1,0 +1,29 @@
+<section class="sample-modal" aria-hidden="true" ng-show="main.sampleSwitch" id="sample-modal-section" ng-close-sample>
+	<div class="sample-modal-content">
+		<img class="sample-modal-img" ng-src="{{main.sampleModal}}" id="display-sample-modal">
+	</div> 
+</section>
+
+<div class = "positionRelative">
+	<div class="text-center">
+		<h1 class="aboutus-header-font">Content</h1>
+	</div>
+	
+    <!--Samples-->
+	<div class = "container-fluid addPerspective">
+	<!-- Header Content -->
+		<div id="sampCarousel">
+		    <figure ng-repeat="sample in main.sampleResumes">
+		    	<img ng-src = "{{sample.source}}" id = {{sample.id}} width ="100%" height = "430px" ng-display-sample>
+		    </figure>
+ 		</div>
+  	</div>
+
+  	<!--Controls-->
+	<a class="carousel-control left" onClick="turnLeft()">
+	</a>
+
+	<a class="carousel-control right" onClick = "turnRight()">
+
+	</a>
+</div>

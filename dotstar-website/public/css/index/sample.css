@@ -1,0 +1,120 @@
+/** Background for the sample resume section **/
+.resumeBackground{
+  background-repeat:no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/careers-banner.png") no-repeat center center fixed;
+  background-position:center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  overflow:hidden;
+}
+
+.positionRelative .right{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.0) 100%);
+  width: 40%;
+}
+
+.positionRelative .left{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.0) 100%);
+  width: 40%;
+}
+
+.positionRelative{
+  position:relative;
+}
+.minusPadding{
+  padding-right:0px;
+  padding-left:0px;
+}
+.addPerspective {
+  width: 360px;
+  height: 450px;
+  perspective: 1000px;
+}
+#sampCarousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: translateZ( -672px ) rotateY( 0deg );
+  opacity:0.9;
+  -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+
+#sampCarousel figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 340px;
+  height: 430px;
+  left: 10px;
+  top: 10px;
+}
+
+.sample-modal {
+    /* some styles to position the modal at the center of the page */
+    position: fixed;
+    overflow-y: auto;
+
+    top: 0%; right: 0%; bottom: 0%; left: 0%;
+  
+    /* needed styles for the overlay */
+    z-index: 1030; /* keep on top of other elements on the page (bootstrap fixed-top is actually 1030)*/
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+}
+
+.sample-modal-content{
+    margin: 15vh auto;
+    width: 50%;
+
+    border-radius: 5px;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+}
+
+.sample-modal-img{
+  width: 100%;
+  height: 100%;
+}
+
+/*
+Formula: 360/ #offaces;
+6 faces:; 360/6 = 60
+approx 420px width
+
+find radius 420px/2 = 210
+60deg / 2 = 30
+r = 210\tan(30) = 784
+*/
+/*#sampCarousel figure:nth-child(1) { transform: rotateY(   0deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(2) { transform: rotateY(  30deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(322) { transform: rotateY( 60deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(422) { transform: rotateY( 90deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(522) { transform: rotateY( 120deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(3) { transform: rotateY( 150deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(4) { transform: rotateY( 180deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(5) { transform: rotateY( 210deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(9) { transform: rotateY( 240deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(10) { transform: rotateY( 270deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(11) { transform: rotateY( 300deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(6) { transform: rotateY( 330deg ) translateZ(784px); }*/
+
+#sampCarousel figure:nth-child(1) { transform: rotateY(   0deg ) translateZ(672px); }
+#sampCarousel figure:nth-child(2) { transform: rotateY(  30deg ) translateZ(672px); }
+#sampCarousel figure:nth-child(3) { transform: rotateY( 60deg ) translateZ(672px); }
+#sampCarousel figure:nth-child(4) { transform: rotateY( 90deg ) translateZ(672px); }
+#sampCarousel figure:nth-child(5) { transform: rotateY( 120deg ) translateZ(672px); }
+#sampCarousel figure:nth-child(6) { transform: rotateY( 150deg ) translateZ(672px); }
+
+/*#sampCarousel figure:nth-child(1) { transform: rotateY(   0deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(2) { transform: rotateY(  30deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(3) { transform: rotateY( 60deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(4) { transform: rotateY( 300deg ) translateZ(784px); }
+#sampCarousel figure:nth-child(5) { transform: rotateY( 330deg ) translateZ(784px); }*/
+
+  

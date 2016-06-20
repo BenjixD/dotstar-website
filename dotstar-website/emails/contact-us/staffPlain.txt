@@ -1,0 +1,10 @@
+Hello,
+
+Someone used the contact us feature on the website.
+Here's the details:
+
+Name: {{name}}
+E-mail: {{email}}
+Message:
+
+{{message}}
