@@ -20,8 +20,16 @@ section{
     height: 2px;
 }
 
-.section-colour{
+.header-simple{
+	font-family: "Montserrat", Arial, sans-serif;
+}
+
+.section-colour-grey{
 	background-color: #FAFAFA;
+}
+
+.section-colour-green{
+	background-color: #66BB6A;
 }
 
 .fade{
@@ -71,7 +79,53 @@ section{
   align-items: center;
 }
 
+.vertical-center-md {
+  margin-top: 25%;
+}
+
 .highlight-quote{
 	color: #0288D1;
 	font-weight:400;
+}
+
+.logo-svg{
+	max-width: 100%;
+	height: auto;
+}
+
+.icon-svg{
+	max-width: 50%;
+	height: auto;
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img-svg{
+	max-width: 100%;
+	height: auto;
+}
+
+.section-header{
+	margin-top: 50px;
+}
+
+.section-content{
+	margin-top: 30px;
+	color: #616161;
+}
+
+.text-white{
+	color: #fff;
+}
+
+
+@media only screen and (max-device-width: 768px){
+	.section-header{
+		margin-top: 30px;
+	}
+
+	.vertical-center-md{
+		margin-top: 0%;
+	}
 }

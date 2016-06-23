@@ -23,3 +23,20 @@ body{
     line-height: 1.5;
 }
 
+@media only screen and (max-device-width: 768px){
+	h1{
+		font-size: 72px;
+	}
+
+	h2{
+		font-size: 64px;
+	}
+
+	h3{
+		font-size: 52px;
+	}
+
+	body{
+		font-size: 36px;
+	}
+}

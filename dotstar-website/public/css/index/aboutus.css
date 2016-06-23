@@ -19,3 +19,8 @@
 .aboutus-media{
 	overflow: hidden;
 }
+
+.aboutus-content{
+	margin-top: 30px;
+	color: #616161;
+}

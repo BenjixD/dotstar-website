@@ -6,7 +6,7 @@ myModule.directive('ngFadeInElement', ['$document', '$window', function($documen
 		link: function(scope, element, attr){
 			scope.onScrollFunction = function (){
 				var startLocation = element[0].offsetTop; //This is the offset from top to beginning of element
-				if($window.scrollY + $window.innerHeight >= startLocation){
+				if($window.scrollY + $window.innerHeight/2 >= startLocation){
 					element.addClass("fadein");
 				}
 			}

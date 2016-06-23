@@ -13,13 +13,15 @@
 .contact-us-input{
     padding-top: 25px; padding-bottom: 25px;
     border: none;
-    border-top: 1px solid #4FC3F7;
+    border-top: 1px solid #FF7043;
     width: 72%;
     margin-left: 14%;
 
     font-size: 24px;
+    font-family: "Nunito", Arial, sans-serif;
+    font-weight: 300;
 
-    background: linear-gradient(to right, #E1F5FE 50%, #fff 50%);
+    background: linear-gradient(to right, #FBE9E7 50%, #fff 50%);
     background-size: 200% 100%;
     background-position: right bottom;
 
@@ -38,15 +40,17 @@
     resize: none;
     height: 160px;
     border: none;
-    border-top: 1px solid #4FC3F7;
-    border-bottom: 1px solid #4FC3F7;
+    border-top: 1px solid #FF7043;
+    border-bottom: 1px solid #FF7043;
     overflow-y: auto;
     width: 72%;
     margin-left: 14%;
 
     font-size: 24px;
+    font-family: "Nunito", Arial, sans-serif;
+    font-weight: 300;
 
-    background: linear-gradient(to right, #E1F5FE 50%, #fff 50%);
+    background: linear-gradient(to right, #FBE9E7 50%, #fff 50%);
     background-size: 200% 100%;
     background-position: right bottom;
 
@@ -66,15 +70,14 @@
 }
 
 .contact-us-button{
-    font-family: "Roboto Slab", Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     padding: 14px 20px;
     text-transform: uppercase;
-    color: #42A5F5;
+    color: #FF7043;
 
     background: transparent;
-    border: 1px solid #4FC3F7;
+    border: 1px solid #FF7043;
     border-radius: 0px;
 
     transition: all 0.5s ease;
@@ -82,6 +85,6 @@
 
 .contact-us-button:hover,
 .contact-us-button:focus{
-    background: #4FC3F7;
+    background: #FF7043;
     color: #fff;
 }

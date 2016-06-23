@@ -50,6 +50,12 @@
 	font-size: 40px;
 	font-weight: 300;
 	color: #fff;
+
+	line-height: 80px;
+}
+
+#intro-msg1-img{
+	margin-top: -40px;
 }
 
 #intro-msg2{
@@ -77,4 +83,17 @@
 
 #mottoLink{
 	margin-top: 80px;
+}
+
+@media only screen and (max-device-width: 768px){
+	#mottoContainer{
+		background: radial-gradient(ellipse closest-corner at 50% 60% , rgba(55, 71, 79, 0) 1%, rgba(66, 66, 66, 0.7) 100%), url("/img/intro-banner.jpg") no-repeat;
+		background-position:center;
+		background-size: cover;
+		height:50vh;
+	}
+
+	.intro-pitch{
+		margin-top: 10%;
+	}
 }
