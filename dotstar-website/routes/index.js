@@ -26,6 +26,18 @@ router.post('/index/contact-us', function(req, res, middlewareNext){
     };
 
     async.waterfall([
+		// VALIDATING FIELDS
+		function(next){
+			if(!req.body.name || !req.body.email || !req.body.message){
+				var error = errorList.INCOMPLETE_FORM;
+				error.specifics = 'Contact-Us form is incomplete.';
+				return next(error);
+			}
+			else{
+				next(null);
+			}
+		},
+
         // SEND EMAIL TO USER
         function(next){
             email.sendMail(transport, templates, heading, context, function(err, failed){

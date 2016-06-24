@@ -45,7 +45,7 @@ function log(error, callback){
 
             fs.stat(logsDirectory, function(err, stats){
                 // DIRECTORY D.N.E. -> MAKE IT
-                if(err && err.errno === -4058){
+                if(err && err.code === 'ENOENT'){
                     fs.mkdir(logsDirectory, function(err){
                         if(err){
                             return next({msg: 'Error making logs directory.'});
@@ -68,7 +68,7 @@ function log(error, callback){
 
             fs.stat(yearDirectory, function(err, stats){
                 // DIRECTORY D.N.E. -> MAKE IT
-                if(err && err.errno === -4058){
+                if(err && err.code === 'ENOENT'){
                     fs.mkdir(yearDirectory, function(err){
                         if(err){
                             return next({msg: 'Error making year-log directory.'});
@@ -91,7 +91,7 @@ function log(error, callback){
 
             fs.stat(monthDirectory, function(err, stats){
                 // DIRECTORY D.N.E. -> MAKE IT
-                if(err && err.errno === -4058){
+                if(err && err.code === 'ENOENT'){
                     fs.mkdir(monthDirectory, function(err){
                         if(err){
                             return next({msg: 'Error making month-log directory.'});
