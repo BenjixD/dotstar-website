@@ -89,5 +89,18 @@
                 "Please try again."
             ]
         }
-    }
+    },
+
+	"INCOMPLETE_FORM": {
+		"title": "INCOMPLETE FORM",
+        "internalMessage": "Cannot complete action due to missing required information.",
+        "status": 400,
+        "response": {
+            "message": "Your request cannot be completed because your form is incomplete.",
+            "steps": [
+                "Fill in any missing data.",
+                "Please try again."
+            ]
+        }
+	}
 }
