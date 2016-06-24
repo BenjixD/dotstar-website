@@ -7,7 +7,7 @@
 
 .info-section-1{
 	background-repeat:no-repeat;
-	background: linear-gradient( rgba(171, 71, 188, 0.7), rgba(171, 71, 188, 0.5) ), url("/img/index/designer-room.jpg") no-repeat;
+	background: linear-gradient( rgba(171, 71, 188, 0.7), rgba(171, 71, 188, 0.5) ), url("/img/index/DesignerRoom.jpg") no-repeat;
 	background-position: 0% 60%;
 	background-size: cover;
 	height:50vh;
