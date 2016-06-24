@@ -19,37 +19,23 @@ myModule.controller('mainController', function($http){
 
         $http(req).then(
             function(response){ //success callback
-                console.log('ayy');
+                new PNotify({
+                    title: 'Got it!',
+                    text: 'We\'ll get back to you ASAP.',
+                    type: 'success',
+                    delay: 3000
+                });
             },
             function(response){ //failure callback
-                console.log('lol');
+                new PNotify({
+                    title: 'Oops!',
+                    text: 'Looks like something went wrong.',
+                    type: 'error',
+                    delay: 3000
+                });
             }
         );
     };
-
-    this.sampleResumes = [{
-        id: "sample1",
-        source: "img/sampleRes.png"
-    },
-    {
-        id: "sample2",
-        source: "img/sampleRes.png"
-    },
-    {
-        id: "sample3",
-        source: "img/sampleRes.png"
-    },
-    {
-        id: "sample4",
-        source: "img/sampleRes.png"
-    },
-    {
-        id: "sample5",
-        source: "img/sampleRes.png"
-    }];
-
-    this.sampleModal = "";
-    this.sampleSwitch = false;
 });
 
 myModule.controller('loginCtrl', function($http, $location){

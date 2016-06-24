@@ -88,3 +88,10 @@
     background: #FF7043;
     color: #fff;
 }
+
+.contact-us-button:active{
+    background: #BF360C;
+    border: 1px solid #BF360C;
+
+    transition: background 0s ease-out;
+}
