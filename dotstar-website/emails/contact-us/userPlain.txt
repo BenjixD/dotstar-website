@@ -1,6 +1,6 @@
 Hello {{name}},
 
-Thank you for contacting Resumaker. This email is to inform you that your message has been received.
+Thank you for contacting DotStar. This email is to inform you that your message has been received.
 This is an automated message, please do not reply to this e-mail.
 
 Your message:
@@ -9,5 +9,5 @@ Your message:
 
 
 Thank You,
-Resumaker
-www.resumaker.com
+DotStar
+www.dotstar.io
