@@ -1,11 +1,11 @@
 {
     "transport1": {
-        "host": "smtp.gmail.com",
+        "host": "mail.privateemail.com",
         "secure": true,
         "port": 465,
         "auth": {
-            "user": "",
-            "pass": ""
+            "user": "dotstar@dotstar.io",
+            "pass": "sagadatthis"
         }
     }
 }
