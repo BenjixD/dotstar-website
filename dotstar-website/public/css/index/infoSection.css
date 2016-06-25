@@ -7,7 +7,7 @@
 
 .info-section-1{
 	background-repeat:no-repeat;
-	background: linear-gradient( rgba(171, 71, 188, 0.7), rgba(171, 71, 188, 0.5) ), url("/img/index/DesignerRoom.jpg") no-repeat;
+	background: linear-gradient( rgba(171, 71, 188, 0.7), rgba(171, 71, 188, 0.7) ), url("/img/index/DesignerRoom.jpg") no-repeat;
 	background-position: 0% 60%;
 	background-size: cover;
 	height:50vh;
@@ -15,175 +15,9 @@
 	text-align: center;
 }
 
-/*==================================================================*/
-/*==================================================================*/
-/*==================================================================*/
-/*==================================================================*/
-.info-section-2{
-	display: flex;
-}
-
-.info-section-2-content1{
-	background-color: #64B5F6;
-	width: 50%;
-}
-
-.info-section-2-content2{
-	background-color: #F06292;
-	width: 50%;
-}
-
-.info-section-2-content-pic-title{
-	font-family: "Roboto Slab", Arial, sans-serif;
-	font-weight: 400;
-	font-size: 30px;
-	color: #fff;
-
-	opacity: 0;
-
-	margin-top: 5vh;
-
-	transition-delay: 0.2s;
-	transition-duration: 0.2s;
-}
-
-.info-section-2-content-pic-text{
-	font-family: "Roboto", Arial, sans-serif;
-	font-weight: 300;
-	font-size: 20px;
-	color: #fff;
-
-	opacity: 0;
-
-	margin-top: 8vh;
-
-	transition-delay: 0.1s;
-	transition-duration: 0.2s;
-}
-
-.info-section-2-textslider{
-	transform: translateY(-80px);
-}
-
-.info-section-2-content-text{
-	font-family: "Amatic SC", "Roboto", Arial, sans-serif;
-	font-weight: 700;
-	font-size: 20vh;
-	color: #fff;
-
-	letter-spacing:1vh;
-
-	margin-top: 8vh;
-}
-
-.info-section-2-food{
-	/*possible linear-gradient( rgba(79, 195, 247, 0.3), rgba(79, 195, 247, 0.3) ),*/
-	background-repeat:no-repeat;
-	background: url("/img/info2_1.jpg") no-repeat center center;
-	background-position:center;
-	background-size: cover;
-	height:45vh;
-
-	width: 50%;
-
-	text-align: center;
-}
-
-.info-section-2-food-overbox{
-	position:absolute;
-    width:100%; height:0%;
-    top:0; left:0;
-    background: linear-gradient( rgba(100, 181, 246, 0.8), rgba(100, 181, 246, 0.8) );
-    opacity: 0;
-
-    -webkit-transition: all 300ms ease-out;
-	-moz-transition: all 300ms ease-out;
-	-o-transition: all 300ms ease-out;
-	-ms-transition: all 300ms ease-out;
-	transition: all 300ms ease-out;
-}
-
-.info-section-2-food:hover .info-section-2-food-overbox, 
-.info-section-2-food:focus .info-section-2-food-overbox{
-	height: 100%;
-	opacity: 1;
-}
-
-.info-section-2-food:hover .info-section-2-content-pic-title, 
-.info-section-2-food:focus .info-section-2-content-pic-title,
-.info-section-2-food:hover .info-section-2-content-pic-text,
-.info-section-2-food:focus .info-section-2-content-pic-text{
-	transform: translateY(0px);
-	opacity: 1;
-}
-
-.info-section-2-ingredient{
-	/*possible linear-gradient( rgba(240, 98, 146, 0.3), rgba(240, 98, 146, 0.3) ), */
-	background-repeat:no-repeat;
-	background: url("/img/info2_2.jpg") no-repeat center center;
-	background-position:center;
-	background-size: cover;
-	height:45vh;
-
-	width: 50%;
-
-	text-align: center;
-}
-
-.info-section-2-ingredient-overbox{
-	position:absolute;
-    width:100%; height:0%;
-    top:0; left:0;
-    background: linear-gradient( rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8) );
-    opacity: 0;
-
-    -webkit-transition: all 300ms ease-out;
-	-moz-transition: all 300ms ease-out;
-	-o-transition: all 300ms ease-out;
-	-ms-transition: all 300ms ease-out;
-	transition: all 300ms ease-out;
-}
-
-.info-section-2-ingredient:hover .info-section-2-ingredient-overbox, 
-.info-section-2-ingredient:focus .info-section-2-ingredient-overbox{
-	height: 100%;
-	opacity: 1;
-}
-
-.info-section-2-ingredient:hover .info-section-2-content-pic-title, 
-.info-section-2-ingredient:focus .info-section-2-content-pic-title,
-.info-section-2-ingredient:hover .info-section-2-content-pic-text,
-.info-section-2-ingredient:hover .info-section-2-content-pic-text{
-	transform: translateY(0px);
-	opacity: 1;
-}
-
-@media (max-width: 992px){
-	.info-section-2-content-text{
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	.info-section-2{
-		display: block;
-	}
-
-	.info-section-2-content1{
-		width: 100%;
-	}
-
-	.info-section-2-content2{
-		width: 100%;
-	}
-
-	.info-section-2-food{
-		width: 100%;
-		height: 70vh;
-	}
-
-	.info-section-2-ingredient{
-		width: 100%;
-		height: 70vh;
+@media only screen and (max-device-width: 768px){
+	.info-section-content{
+		font-size: 48px;
 	}
 }
 
@@ -191,26 +25,3 @@
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
-
-.info-section-3{
-	background-repeat:no-repeat;
-	background: linear-gradient(to right, rgba(62, 39, 35, 0.9) 50%, transparent 50% ), url("/img/info3.jpg") no-repeat center center fixed;
-	background-position:center;
-	background-size: cover;
-	height:50vh;
-
-	text-align: center;
-}
-
-.info-section-3 p{
-	color: #64B5F6;
-
-	font-family: "Amatic SC", "Roboto", Arial, sans-serif;
-	font-weight: 400;
-	font-size: 30px;
-	letter-spacing: 6px;
-}
-
-.info-section-3 p .highlight-quote{
-	font-weight: 700;
-}
