@@ -1,0 +1,158 @@
+.template1-company{
+	color: #ff7043;
+	padding: 15px 0 0 20px;
+}
+
+.background-img{
+	background: linear-gradient(rgba(187, 222, 251, 0.3), rgba(187, 222, 251, 0.3)), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=61282cfeed75871385c84c2a44a8e594') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.profile-box{
+	margin-top: 200px;
+
+	/*border: 1px solid #34b3a0;*/
+	/*border-radius: 10px;*/
+
+	background: #F5F5F5;
+	
+}
+
+.side-profile{
+	min-height: 70vh;
+}
+
+.side-profile-container{
+	max-width: 80%;
+	position:absolute;
+
+	margin-left:auto; margin-right: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.main-profile{
+	min-height: 120vh;
+	margin-left: 20px;
+}
+
+.main-profile-container{
+	max-width: 80%;
+	position:absolute;
+
+	margin-left:auto; margin-right: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.profile-img{
+	background: url("/img/dev/template1_user.jpg") 40% 15% no-repeat;
+	background-size: cover;
+
+	width: 100%;
+	height: 220px;
+
+
+	position:absolute;
+	margin-left:auto; margin-right: auto;
+	margin-top: 0px;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.profile-name{
+	font-size: 30px;
+	margin-top: 250px;
+}
+
+.profile-content{
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #757575;
+}
+
+.profile-content-comment{
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #757575;
+}
+
+.profile-section{
+	font-size: 24px;
+	color: #757575;
+	margin-top: 80px;
+}
+
+.profile-button-1{
+	margin-top: 10px;
+	width: 100%;
+
+	border: 1px solid transparent;
+
+	line-height: 2;
+	color: #fff;
+}
+
+.profile-color-blue{
+	background-color: #2196F3;
+}
+
+.profile-color-orange{
+	background-color: #FF9800;
+}
+
+.profile-activity{
+	min-height: 300px;
+	background-color: #fff;
+
+	border: 1px solid #E0E0E0;
+	border-radius: 1px;
+
+	margin-bottom: 50px;
+}
+
+.profile-activity-pitch{
+	color: #BDBDBD;
+	font-size: 14px;
+}
+
+.profile-activity-section{
+	margin: 30px 15px;
+}
+
+.profile-activity-comments{
+	margin: 30px 15px;
+}
+
+.profile-activity-poster{
+	margin-bottom: 0px;
+}
+
+.profile-activity-date{
+	color: #757575;
+	font-size: 12px;
+}
+
+.user-icon-img{
+	width: 50px;
+	height: 50px;
+
+	background: url("/img/dev/template1_user2.jpg") 40% 15% no-repeat;
+	background-size: cover;
+}
+
+.user-icon-img-comment{
+	width: 40px;
+	height: 40px;
+
+	background: url("/img/dev/template1_user.jpg") 40% 15% no-repeat;
+	background-size: cover;
+}

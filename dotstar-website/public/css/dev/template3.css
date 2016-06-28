@@ -1,0 +1,55 @@
+.background-img{
+	background-color: #FF6347;
+	height: 120vh;
+}
+
+.blog-button{
+	min-height: 120px;
+	border: 1px solid #fff;
+	background-color: #ef5350;
+	color: #fff;
+}
+
+.template3-header{
+	margin-top: 550px;
+	font-size: 52px;
+	color: #fff;
+}
+
+.template3-font{
+	font-size: 24px;
+	color: #fff;
+}
+
+.picture-frame{
+	width: 450px;
+	height: 450px;
+
+	background-color: #fff;
+
+	position:absolute;
+
+	margin-left:auto; margin-right: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+
+	margin-top: 200px;
+}
+
+.user-picture{
+	max-width: 90%;
+	max-height: 90%;
+	position:absolute;
+
+	margin: auto auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+
+	background: url("/img/dev/template1_user.jpg") 40% 15% no-repeat;
+	background-size: cover;
+}
+

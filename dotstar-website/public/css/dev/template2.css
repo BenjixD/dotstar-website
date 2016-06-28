@@ -1,0 +1,17 @@
+.background-img{
+	background-color: #FFDEAD;
+	height: 200vh;
+}
+
+.shop-motto{
+	background: linear-gradient(rgba(255, 160, 122, 0.1),rgba(255, 160, 122, 0.1)), url("https://images.unsplash.com/photo-1466500419182-8602dc906b51?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=142c97093161eb93d66bcb8f552a1881") 50% 60%;
+	background-size: cover;
+
+	height: 60vh;
+}
+
+.template2-header{
+	margin-top: 50px;
+	font-family: 'Lobster';
+	font-size: 28px;
+}

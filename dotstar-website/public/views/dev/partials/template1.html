@@ -1,12 +1,61 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Resumaker</title>
-    </head>
-    <body>
-        <p>
-            Hello World
-        </p>
-    </body>
-</html>
+<link href="css/dev/template1.css" rel = "stylesheet"></link>
+
+<div class="background-img">
+
+	<!-- NAVBAR -->
+	<div class="navbar-fixed-top" id="navbar-landing">
+		<nav class="navbar navbar-default lvl-dp-1 navbar-fixed-top" id="navbar-display">		
+			<!-- Navbar Items -->
+			<div class="collapse navbar-collapse navbar-content-collapse" ng-close-menu>
+				<p class="pull-left template1-company">Your Social Application</p>
+
+				<ul class="nav navbar-nav">
+					<li class="nav-item">
+						<a><i class="fa fa-user" aria-hidden="true"></i> John Smith</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+
+	<!-- CONTENT -->
+	<div class="col-md-offset-1 col-md-2 profile-box side-profile">
+		<div class="profile-img"></div>
+		<div class="side-profile-container">
+			<p class="profile-name">John Smith</p>
+			<p class="profile-content">Designer, entrepreneur and freelance developer.</p>
+			<hr>
+			<button class="profile-button-1 profile-color-blue"><i class="fa fa-user-plus" aria-hidden="true"></i> Add Friend</button>
+			<button class="profile-button-1 profile-color-orange"><i class="fa fa-envelope" aria-hidden="true"></i> Send Message</button>
+		</div>
+	</div>
+	<div class="col-md-offset-1 col-md-8 profile-box main-profile">
+		<div class="main-profile-container">
+			<p class="profile-section">Recent Activity</p>
+			<hr>
+			<p class="profile-activity-pitch">Commented on Jane Doe's Post</p>
+			<div class="profile-activity col-md-12">
+				<div class="container-fluid profile-activity-section">
+					<div class="user-icon-img col-md-1"></div>
+					<p class="col-md-11 profile-activity-poster">Jane Doe</p>
+					<p class="col-md-11 profile-activity-date">January 2016</p>
+					<p class="profile-content col-md-12">Hey John, lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit tortor tortor, a iaculis urna accumsan eget. In a laoreet lacus, finibus ultricies magna. Praesent nec ante interdum nunc cursus egestas quis vitae odio. Ut at imperdiet magna. In quis sagittis sapien, a pharetra urna.</p>
+					<hr class="col-md-11">
+					
+					<!--Comments -->
+					<div class="profile-activity-comments">
+						<div class="user-icon-img-comment col-md-1"></div>
+						<p class="col-md-11 profile-activity-poster">John Smith</p>
+						<p class="profile-content-comment col-md-11">Hey Jane! Thanks for the update!</p>
+					</div>
+				</div>
+			</div>
+
+			<p class="profile-activity-pitch">Commented on Jane Doe's Post</p>
+			<div class="profile-activity col-md-12">
+			</div>
+
+		</div>
+	</div>
+</div>
