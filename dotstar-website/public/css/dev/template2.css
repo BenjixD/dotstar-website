@@ -7,11 +7,61 @@
 	background: linear-gradient(rgba(255, 160, 122, 0.1),rgba(255, 160, 122, 0.1)), url("https://images.unsplash.com/photo-1466500419182-8602dc906b51?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=142c97093161eb93d66bcb8f552a1881") 50% 60%;
 	background-size: cover;
 
-	height: 60vh;
+	height: 55vh;
+}
+
+.shop-motto-logo{
+
+	height: 400px;
+	width: 80%;
+
+	position: absolute;
+
+	margin-left: 10%; margin-right: auto;
+	margin-top: 0vh;
+
+	background: url('/img/dev/vintage.png');
+	background-size: cover;
+
+	
 }
 
 .template2-header{
-	margin-top: 50px;
+	margin-top: 40px;
 	font-family: 'Lobster';
-	font-size: 28px;
+	font-size: 32px;
 }
+
+.template2-p{
+	margin-top: 10px;
+	font-family: 'Lobster';
+	font-size: 20px;
+}
+
+.template2-dark{
+	background-color: #000;
+	border: 0 solid transparent;
+}
+
+.template2-item1{
+
+	width: 500px;
+	height: 500px;
+
+	position: absolute;
+
+	margin-left: 15vh; margin-right: auto;
+	margin-top: 0vh;
+
+	background: url('/img/dev/item1.png');
+	background-size: cover;
+
+}
+
+.template2-button{
+	border: 1px solid #757575;
+	color: #757575;
+	background-color: transparent;
+
+	font-size: 20px;
+}	

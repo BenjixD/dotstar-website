@@ -21,6 +21,24 @@
 	color: #fff;
 }
 
+.template3-textarea{
+	margin-top: 100px;
+	border-radius: 2px;
+	border: 1px solid transparent;
+
+	color: #E0E0E0;
+}
+
+.template3-button{
+	margin-top: 50px;
+
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: transparent;
+
+	width: 20%;
+}
+
 .picture-frame{
 	width: 450px;
 	height: 450px;
