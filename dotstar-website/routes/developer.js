@@ -22,6 +22,17 @@ module.exports = function(passport){
 		}
 	});
 
+	//Facebook login route
+	//scope is used to ask permission to retrieve extra information, email is not provided by default.
+	router.get('/dev/login/facebook', passport.authenticate('facebook-login', {scope: ['email']}));
+
+	//Facebook login callback
+	//Facebook will call this route after authentication success/failure.
+	router.get('/dev/login/facebook/callback',
+				passport.authenticate('facebook-login',
+					{successRedirect: '/dev/loggedin',
+					 failureRedirect: '/'}));
+
 	//logout
 	router.get('/dev/logout', function(req, res, next){
 		req.logout();

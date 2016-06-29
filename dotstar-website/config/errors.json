@@ -102,5 +102,18 @@
                 "Please try again."
             ]
         }
+	},
+
+    "DATABASE_QUERY": {
+		"title": "DATABASE QUERY ERROR",
+        "internalMessage": "Failed while querying the database.",
+        "status": 400,
+        "response": {
+            "message": "Database lookup failed.",
+            "steps": [
+                "As this is not your fault, there's nothing you can do to solve the problem.",
+                "Technicians have been contacted, please try again later."
+            ]
+        }
 	}
 }

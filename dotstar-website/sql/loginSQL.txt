@@ -1,1 +1,1 @@
-SELECT * FROM night_foodie.restaurant_info WHERE username = ?;
+SELECT * FROM dotstar.users WHERE local_id = ?;

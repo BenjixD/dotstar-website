@@ -3,8 +3,8 @@
         "connectionLimit": 10,
         "host": "127.0.0.1",
         "user": "root",
-        "password": "Sabad@th!s1234567",
-        "database": "night_foodie",
+        "password": "local123",
+        "database": "dotstar",
         "multipleStatements": true,
         "port": 3306
     }
