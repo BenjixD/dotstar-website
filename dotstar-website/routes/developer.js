@@ -33,6 +33,15 @@ module.exports = function(passport){
 					{successRedirect: '/dev/loggedin',
 					 failureRedirect: '/'}));
 
+	//Google+ login route
+	router.get('/dev/login/google', passport.authenticate('google-login', {scope: ['profile', 'email']}));
+
+	//Google+ login callback
+	router.get('/dev/login/google/callback',
+				passport.authenticate('google-login',
+					{successRedirect: '/dev/loggedin',
+					 failureRedirect: '/'}));
+
 	//logout
 	router.get('/dev/logout', function(req, res, next){
 		req.logout();
