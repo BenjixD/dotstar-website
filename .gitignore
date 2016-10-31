@@ -42,3 +42,6 @@ notsecret.txt
 
 #Public keys
 *.pem
+
+#Config Files
+dotstar-website/config
